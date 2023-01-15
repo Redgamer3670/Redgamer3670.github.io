@@ -63,6 +63,8 @@ section ul li {
     list-style: none;
     width: 30%;
     margin: 10px;
+    margin-right:-4%;
+    margin-left:-4%;
 }
 
 section ul li a {
