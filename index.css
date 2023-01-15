@@ -73,7 +73,7 @@ section ul li a {
 }
 
 section ul li a img {
-    width: 40%;
+    width: 30%;
 }
 
 footer {
@@ -81,6 +81,9 @@ footer {
     color: #fff;
     padding: 10px;
     text-align: center;
+}
+a {
+font-size:20px
 }
 
 
