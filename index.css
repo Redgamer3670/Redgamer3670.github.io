@@ -40,14 +40,14 @@ main {
 }
 
 section {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(230, 230, 230);
     padding: 10px;
     margin: 1%;
     width: 97%;
     text-align: center;
     border-style: solid;
     border-radius: 50px;
-    
+
 }
 
 section h1 {
@@ -81,6 +81,7 @@ section ul li a {
 
 section ul li a img {
     width: 30%;
+
 }
 
 footer {
@@ -154,6 +155,26 @@ text-decoration: none;
     background: linear-gradient(to top, #008aff,#00ffe7);
     filter:blur(30px)
 }
+
+
+section:hover
+{
+    background-color: rgb(255, 255, 255);
+}
+section
+{
+    transition: all 500ms;
+}
+img:hover
+{
+    width:35%;
+
+}
+img
+{
+    transition: all 500ms;
+}
+
 
 
 
