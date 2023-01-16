@@ -8,11 +8,18 @@
 </head>
 
 <body>
+
+<div id="progressbar"></div>
+<div id="scrollpath"></div>
+
+
+
     <header>
         <nav>
             <ul>
                 <h1>Digital Ninjas</h1>
             </ul>
+            
         </nav>
     </header>
 
@@ -119,7 +126,7 @@
         </section>
          </section>
         <!-- ABOUT -->
-        <section id="about" style=" "> <h1>About</h1> <p style=" font-size: 20px; ">This is a website coded by <b>Redgamer3670</b></p> <p style=" font-size: 20px; ">The proxy is coded by <b>Commandmaster567</b></p> </section>
+        <section id="about"> <h1>About</h1> <p style=" font-size: 20px; ">This is a website coded by <b>Redgamer3670</b></p> <p style=" font-size: 20px; ">The proxy is coded by <b>Commandmaster567</b></p> </section>
 
 
     </main>
@@ -131,5 +138,13 @@
 
 
 
-
+<script type="text/javascript">
+    let progress = document.getElementById('progressbar');
+    let totalHeight = document.body.scrollHeight - window.innerHeight;
+    window.onscroll = function(){
+        let progressHeight = (window.pageYOffset / totalHeight) * 100;
+        progress.style.height = progressHeight + "%";
+        
+    }
+</script>
 </body></html>
