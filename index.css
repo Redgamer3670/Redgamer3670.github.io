@@ -12,6 +12,7 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
+    border-radius: 40px;
 }
 
 header nav ul {
@@ -43,6 +44,8 @@ section {
     margin: 1%;
     width: 97%;
     text-align: center;
+    border-style: solid;
+    border-radius: 50px;
     
 }
 
@@ -83,12 +86,13 @@ footer {
     color: #fff;
     padding: 10px;
     text-align: center;
+    border-radius: 40px;
 }
+
 a {
 font-size:25px;
 text-decoration: none;
- 
-}
+ }
 
 
 
