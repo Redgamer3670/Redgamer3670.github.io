@@ -10,7 +10,7 @@ body {
 header {
     background-color: rgb(95, 95, 95);
     color: #fff;
-    padding: 20px;
+    padding: 2%;
     text-align: center;
     border-radius: 40px;
     font-size:20px;
@@ -40,7 +40,7 @@ main {
 }
 
 section {
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(214, 214, 214);
     padding: 10px;
     margin: 1%;
     width: 97%;
@@ -174,6 +174,35 @@ img
 {
     transition: all 500ms;
 }
+
+
+#full
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana;
+    display: flex;
+    min-height: 20%;
+
+    
+}
+
+h2
+{
+    color:rgb(255, 255, 255);
+    text-shadow: 5px 3px rgb(26, 26, 26);
+    margin: -1%
+}
+
+header h1{
+    font-size:46px;
+    text-shadow: 5px 4px gray;
+    margin-top:2%;
+
+}
+
+
 
 
 
