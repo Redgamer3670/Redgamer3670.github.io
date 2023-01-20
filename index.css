@@ -196,6 +196,7 @@ h2
 }
 
 header h1{
+    color:black;
     font-size:46px;
     text-shadow: 5px 4px gray;
     margin-top:2%;
