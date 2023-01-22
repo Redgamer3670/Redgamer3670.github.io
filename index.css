@@ -8,7 +8,8 @@ body {
 }
 
 header {
-    background-color: rgb(0, 0, 0);
+    background: rgb(34,34,34);
+    background: radial-gradient(circle, rgb(22, 22, 22) 59%, rgba(0,0,0,1) 100%);
     color: #fff;
     padding: 2%;
     text-align: center;
@@ -27,11 +28,11 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #fff;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 header nav div a {
-    color: #fff;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 header nav div {
@@ -209,8 +210,8 @@ section h2{
 
 header h1{
     color:rgb(255, 255, 255);
-    font-size:60px;
-    text-shadow: 2px 1px rgb(255, 255, 255);
+    font-size:70px;
+    text-shadow: 2px 1px rgb(207, 207, 207);
     margin-top:2%;
     filter: blur(1px);
 
