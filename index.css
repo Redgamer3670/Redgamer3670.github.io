@@ -1,284 +1,242 @@
-<html>
-   <head>
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-      <title>Digital Ninjas</title>
-      <link rel="stylesheet" href="index.css">
-      <link rel="icon" type="image/x-icon" href="favicon.ico">
-   </head>
-   <body>
-      <div id="progressbar" style="height: 0%;"></div>
-      <div id="scrollpath"></div>
-      <header id="header">
-         <nav>
-            <div style="margin-bottom: -3%;">
-            <div>
-               <a href="#tools" draggable="false">
-                  <p>Tools</p>
-               </a>
-            </div>
-            <div>
-               <a href="#games" draggable="false">
-                  <p>Games</p>
-               </a>
-            </div>
-            <div>
-               <a href="#social" draggable="false">
-                  <p>Social</p>
-               </a>
-            </div>
-            <div>
-               <a href="#hacking" draggable="false">
-                  <p>Hacking</p>
-               </a>
-            </div>
-            <div>
-               <a href="#contact" draggable="false">
-                  <p>Contact</p>
-               </a>
-            </div>
-            <div>
-               <a href="#help" draggable="false">
-                  <p>Help</p>
-               </a>
-            </div>
-            <div>
-               <a href="#terms" draggable="false">
-                  <p>Terms</p>
-               </a>
-            </div>
-            <div>
-               <a href="/join.html" draggable="false">
-                  <p>Join</p>
-               </a>
-            </div>
-            <div>
-               <a href="#about" draggable="false">
-                  <p>About</p>
-               </a>
-            </div>
-           
-        </nav>
-        <br>
+/* Add some custom font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+html
+{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #2e2e2e;
+    overflow-x: hidden; /* Hide scrollbars */
+}
 
-            <ul>
-               <h1>Digital Ninjas</h1>
-            </ul>
-            <ul>
-               <a style="font-family: 'Roboto Mono', monospace;; font-weight: 200;font-size:175%;color:rgb(0, 0, 0);"href="https://www.youtube.com/watch?v=_s7r4ufrYOA" target="_blank">Watch Trailer</a>
-               <a style="font-family: 'Roboto Mono', monospace;; font-weight: 200;font-size:175%;color:rgb(0, 0, 0);">&zwnj; | &zwnj; </a>
-               <a style="font-family: 'Roboto Mono', monospace;; font-weight: 200;font-size:175%;color:rgb(0, 0, 0);"href="/join.html" target="_blank">Join the Team</a>
-            </ul>
-            
- 
+header {
+    font-family: 'Roboto Mono', monospace;
+    background: rgb(255,136,0);
+    background: radial-gradient(circle, rgba(255,136,0,1) 70%, rgba(255,0,0,1) 97%);
+    color: #fff;
+    padding: 2%;
+    text-align: center;
+    border-radius: 40px;
+    font-size:20px;
+}
+h1
+{
+    font-family: 'Roboto Mono', monospace;
+}
+h2{
+    font-family: 'Roboto Mono', monospace;
+}
+header nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    list-style: none;
+    margin: 0 10px;
+}
 
 
-      </header>
-      
-      <section id="tools">
-         <h1>Tools</h1>
-         <h2>Useful Tools</h2>
-         </a>
-         <ul>
-            </a>
-            <li>
-               </a>
-               <a href="https://hackertyper-net.translate.goog/?_x_tr_sl=auto&amp;_x_tr_tl=en&amp;_x_tr_hl=en-US&amp;_x_tr_pto=wapp" target="_blank" draggable="false">
-                  <img src="/ico/3.png" alt="" draggable="false">
-                  <p style="color:black">Hacker Typer</p>
-               </a>
-            </li>
-            <li>
-               <a href="https://chat.openai.com/chat" target="_blank" draggable="false">
-                  <img src="/ico/4.png" alt="" draggable="false">
-                  <p style="color:black">Chat GPT</p>
-               </a>
-            </li>
-            <li>
-               <a href="https://fonts.google.com/icons" target="_blank" draggable="false">
-                  <img src="/ico/12.png" alt="" draggable="false">
-                  <p style="color:black">Google Icons</p>
-               </a>
-            </li>
-            <li>
-               <a href="https://github.com/" target="_blank" draggable="false">
-                  <img src="/ico/14.png" alt="" draggable="false">
-                  <p style="color:black">Github</p>
-               </a>
-            </li>
-            <li>
-               <a href="/text.html" target="_blank" draggable="false">
-                  <img src="/ico/25.png" alt="" draggable="false">
-                  <p style="color:black">Text</p>
-               </a>
-            </li>
-            
-         </ul>
-      </section>
-      <!--  GAMES -->
-      <section id="games">
-         <h1>Games</h1>
-         <h2>Shortcuts for Games</h2>
-         <ul>
-            <li>
-               <a href="https://yexex.github.io/" target="_blank" draggable="false">
-                  <img src="/ico/7.png" alt="" draggable="false">
-                  <p style="color:black">Yexex Games</p>
-               </a>
-            </li>
-            <li>
-               <a href="https://yexex.github.io/slope/index.html" target="_blank" draggable="false">
-                  <img src="/ico/9.png" alt="" draggable="false">
-                  <p style="color:black">Slope Unblocked</p>
-               </a>
-            </li>
-            <li>
-               <a href="https://minecraft.skool.world/eaglercraft.html" target="_blank" draggable="false">
-                  <img src="/ico/21.png" alt="" draggable="false">
-                  <p style="color:black">Minecraft Unblocked</p>
-               </a>
-            </li>
-            <li>
-               <a href="https://www.google.com/fbx?fbx=snake_arcade" target="_blank" draggable="false">
-                  <img src="/ico/19.png" alt="" draggable="false">
-                  <p style="color:black">Google Snake</p>
-               </a>
-            </li>
-            <li>
-               <a href="https://www.google.com/fbx?fbx=minesweeper" target="_blank" draggable="false">
-                  <img src="/ico/20.png" alt="" draggable="false">
-                  <p style="color:black">Google Minesweeper</p>
-               </a>
-            </li>
-            <li>
-               <a href="https://yexex.github.io/motox3m/index.html" target="_blank" draggable="false">
-                  <img src="/ico/22.png" alt="" draggable="false">
-                  <p style="color:black">Moto X3M</p>
-               </a>
-            </li>
-         </ul>
-      </section>
-       <!--  SOCIAL -->
-       <section id="social">
-         <h1>Social</h1>
-         <h2>Chat at School</h2>
-         <ul>
-            <li>
-               <a href="https://desmos.up.railway.app/uv/service/hvtrs8%2F-dksaopd%2Ccmm-lmgkn" target="_blank" draggable="false">
-                  <img src="/ico/18.png" alt="" draggable="false">
-                  <p style="color:black">Discord Unblocked</p>
-               </a>
-            </li>
-            <li>
-               <a href="https://mail.google.com/mail/u/" target="_blank" draggable="false">
-                  <img src="/ico/17.png" alt="" draggable="false">
-                  <p style="color:black">Gmail</p>
-               </a>
-            </li>
-            <li>
-               <a href="https://mail.google.com/chat/" target="_blank" draggable="false">
-                  <img src="/ico/23.png" alt="" draggable="false">
-                  <p style="color:black">Google Chat</p>
-                  
-               </a>
-            </li>
-            <li>
-               <a href="https://www.youtube.com/" target="_blank" draggable="false">
-                  <img src="/ico/26.png" alt="" draggable="false">
-                  <p style="color:black">YouTube</p>
-               </a>
-            </li>
-           
-         </ul>
-      </section>
-      <section id="hacking">
-         <h1>Hacking</h1>
-         <h2>Upgrade Hacking Skills</h2>
-         <ul>
-            <li>
-               <a href="https://search-brave-com.translate.goog/?_x_tr_sl=auto&amp;_x_tr_tl=en&amp;_x_tr_hl=en-US&amp;_x_tr_pto=wapp" target="_blank" draggable="false">
-                  <img src="/ico/1.png" draggable="false">
-                  <p style="color:black">Brave Browser</p>
-               </a>
-            </li>
-            <li>
-               <a href="/warning.html" target="_blank" draggable="false">
-                  <img src="/ico/2.png" alt="" draggable="false">
-                  <p style="color:black">Proxy</p>
-               </a>
-            </li>
-            <li>
-               <a href="https://www.hackthissite.org/" target="_blank" draggable="false">
-                  <img src="/ico/16.png" alt="" draggable="false">
-                  <p style="color:black">HackThisSite</p>
-               </a>
-            </li>
-            <li>
-               <a href="https://nmap.org/" target="_blank" draggable="false">
-                  <img src="/ico/13.png" alt="" draggable="false">
-                  <p style="color:black">Nmap</p>
-               </a>
-            </li>
-            <li>
-               <a href="https://cheatnetwork.eu/" target="_blank" draggable="false">
-                  <img src="/ico/6.png" alt="" draggable="false">
-                  <p style="color:black">Cheat Network</p>
-               </a>
-            </li>
-            <li>
-               <a href="https://github.com/cheat-engine/cheat-engine" target="_blank" draggable="false">
-                  <img src="/ico/10.png" alt="" draggable="false">
-                  <p style="color:black">Cheat Engine</p>
-               </a>
-            </li>
-            <li>
-               <a href="https://replit.com/@Forstaken/Chrome-Emulator" target="_blank" draggable="false">
-                  <img src="/ico/24.png" alt="" draggable="false">
-                  <p style="color:black">Emulator</p>
-               </a>
-            </li>
-         </ul>
-      </section>
-      <!-- Contact -->
-      <section id="contact" class="info">
-         <h1>Contact</h1>
-         <p style="font-size: 25px;  padding:20px; margin-right:7%; margin-left:7%;margin-bottom: -2.5%;">If you want to <b>suggest</b> more <b>resources </b>, <a href="https://forms.gle/bKn7DYdYD3pLum5n8" target="_blank" style="color: #686868;font-size: 25px;" draggable="false">Click Here</a>.</p>
-         <p style="font-size: 25px;  padding:20px; margin-right:7%; margin-left:7%;">If you want to <b>contact</b> Digital Ninjas for <b>bugs or extra features</b>, contact: <b>Redgamer367#1670</b> on discord.</p>
-      </section>
-      <!-- Help -->
-      <section id="help" class="info">
-         <h1>Help</h1>
-         <p style="font-size: 25px; padding:20px; margin-right:7%; margin-left:7%;">Welcome to the <b>Help</b> section. If you're having trouble accessing certain websites or resources while on your school's network, this section is here to assist you. If you want to play games at school, look for the <b>Games</b> section. If your looking to improve your hacking/coding skills, or if you want to mess around with hacking features, use the <b>Hacking</b> or <b>Tools</b> section. If you want to chat with friends at school online, look for the <b>Social</b> section. And lastly if you want to unblock websites that are blocked on your school computer, look for <b>Proxy</b> under the <b>Hacking</b> section.</p>
-      </section>
-      <!--Terms-->
-      <section id="terms" class="info">
-         <h1>Terms</h1>
-         <p style="font-size:25px; padding:20px; margin-right:7%; margin-left:7%;">Please do not share this website with any <b>moderator</b> of a school. If you do, and Digital Ninjas gets <b>blocked</b> on <b>school networks</b>, the <b>domain</b> may change causing you to <b>lose access</b>.</p>
-      </section>
-      <!-- About -->
-      <section id="about" class="info">
-         <h1>About</h1>
-         <p style=" font-size: 25px;  padding:5px; margin-right:7%; margin-left:7%;margin-bottom: -2.5%;">This is a website coded by <b>Redgamer367</b>.</p>
-         <p style=" font-size: 25px;  padding:20px; margin-right:7%; margin-left:7%;margin-bottom:-2%;"> It is made for <b>unblocking</b> school resources, or quick access to tools, games, or hacks.</p>
-         <p style=" font-size: 25px;  padding:20px; margin-right:7%; margin-left:7%;margin-top:-2%;">The proxy is coded by <b>Commandmaster567.</b></p>
-      </section>
-      <footer>
-         <div style="margin-left:39%;margin-right: 39%;">
-            <a href="#header" draggable="false">
-               <p class="backtop">Back to Top</p>
-            </a>
-         </div>
-         <p style="font-size:25px">Copyright © 2023 <b>Digital Ninjas</b></p>
-      </footer>
-      <script type="text/javascript">
-         let progress = document.getElementById('progressbar');
-         let totalHeight = document.body.scrollHeight - window.innerHeight;
-         window.onscroll = function(){
-             let progressHeight = (window.pageYOffset / totalHeight) * 100;
-             progress.style.height = progressHeight + "%";
-         
-         }
-      </script>
-   </body>
-</html>
+header nav div a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size:150%;
+}
+header nav div {
+    list-style: none;
+    margin: 0 10px;
+}
+header nav div {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+main {
+
+    justify-content: center;
+    align-items: center;
+    display: inline;
+
+}
+
+section {
+    background-color: rgb(214, 214, 214);
+    padding: 10px;
+    margin: 1%;
+    width: 97%;
+    text-align: center;
+    border-style: solid;
+    border-radius: 50px;
+
+}
+
+section h1 {
+    color: rgb(0, 0, 0);
+    margin-bottom: -1.2%;
+    font-size: 40px;
+}
+
+section ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+section ul li {
+    list-style: none;
+    width: 30%;
+    margin: 10px;
+    margin-right:-4%;
+    margin-left:-4%;
+}
+
+section ul li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+section ul li a img {
+    width: 30%;
+
+}
+
+footer {
+    background-color: rgb(46, 46, 46);
+    color: rgb(129, 129, 129);
+    padding: 10px;
+    text-align: center;
+    border-radius: 40px;
+    font-size: 20px;
+}
+
+a {
+font-size:25px;
+text-decoration: none;
+ }
+
+ ::-webkit-scrollbar{
+    width:0;
+ }
+ #scrollpath{
+    position: fixed;
+    top:0;
+    right:0;
+    width:10px;
+    height: 100%;
+    background: rgba(255,255,255,0.05);
+}
+#progressbar{
+    position: fixed;
+    top:0;
+    right:0;
+    width:10px;
+    height:100%;
+    background: linear-gradient(to top, #008aff,#00ffe7);
+    animation: animate 5s linear infinite;
+
+
+}
+
+@keyframes animate
+{
+    0%,100%
+    {
+        filter:hue-rotate(0deg);
+    }
+    50%
+    {
+        filter:hue-rotate(360deg);
+    }
+}
+
+#progressbar:before
+{
+    content:'';
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background: linear-gradient(to top, #008aff,#00ffe7);
+    filter:blur(5px)
+}
+#progressbar:after
+{
+    content:'';
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background: linear-gradient(to top, #008aff,#00ffe7);
+    filter:blur(10px)
+}
+
+
+section:hover
+{
+    background-color: rgb(255, 255, 255);
+}
+section
+{
+    transition: all 500ms;
+}
+img:hover
+{
+    width:35%;
+
+}
+img
+{
+    transition: all 500ms;
+}
+
+
+#full
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    display:flex;
+    min-height: 20%;
+
+    
+}
+
+
+section h2{
+    font-size:25px;
+    font-weight: 100;
+}
+
+header h1{
+    color:rgb(0, 0, 0);
+    font-size:500%;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    margin-top:2%;
+    filter: blur(1px);
+
+}
+.backtop{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    margin-left:20%;
+    margin-right:20%;
+    transition: all 500ms;
+
+}
+.backtop:hover
+{
+    color:rgb(122, 122, 122);
+}
+
+
+
+
