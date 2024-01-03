@@ -15,7 +15,7 @@
 - `Digital Ninjas` (digitalninjasplus.github.io)
   School Resources and Proxies
 
-- YouTube Channels
+- YouTube Channels:
   Some are anonymous and some I'm sharing:
   - `Hover Snake` (2.7k) (Got taken down from youtube from false termination)
   - Gorilla Tag Channel (~k)
