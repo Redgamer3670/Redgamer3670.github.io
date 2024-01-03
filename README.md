@@ -27,5 +27,5 @@
 - Gorilla Tag (Pro)
 - Geo Dash (Mid)
 - Human Fall Flat (Pro)
-And a ton other PC and VR games that I don't play as much but still play.
+- And a ton other PC and VR games that I don't play as much but still play.
 
