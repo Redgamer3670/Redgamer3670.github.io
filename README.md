@@ -30,3 +30,7 @@
 - Human Fall Flat (Pro)
 - And a ton other PC and VR games that I don't play as much but still play.
 
+## Socials
+
+- Discord: `redgamer367`
+- Github: `digitalninjasplus`, `redgamer3670`
