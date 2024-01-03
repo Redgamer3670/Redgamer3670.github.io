@@ -1,6 +1,6 @@
-## Redgamer367
+# Redgamer367
 
-# Interests
+## Interests
 
 - Gaming
 - Web Dev
@@ -9,7 +9,7 @@
 - Ethical Hacking
 - YouTube Channels
 
-# Projects
+## Projects
 
 - `Digital Ninjas` (digitalninjasplus.github.io)
   School Resources and Proxies
@@ -20,7 +20,7 @@
   - Gorilla Tag Channel (~k)
   - Hypixel Bedwars Channel (~k)
  
-  # Games I Play
+## Games I Play
 (The `()` is how good I am at them...)
 - Minecraft (Pro)
 - BTD6 (Level ~150)
