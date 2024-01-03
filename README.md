@@ -3,7 +3,7 @@
 # Interests
 
 - Gaming
-- Web Dex
+- Web Dev
 - Video Editing
 - Graphic Design
 - Ethical Hacking
