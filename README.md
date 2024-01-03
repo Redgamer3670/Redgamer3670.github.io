@@ -8,6 +8,7 @@
 - Graphic Design
 - Ethical Hacking
 - YouTube Channels
+- Minecarft Event Hosting
 
 ## Projects
 
