@@ -18,7 +18,7 @@
   - CSS
   - Javascript
   - Python
-- Edthical Hacking
+- Ethical Hacking
   - Social Engineering
 - Gaming
 - General Computer Skills
