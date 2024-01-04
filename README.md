@@ -10,6 +10,19 @@
 - YouTube Channels
 - Minecarft Event Hosting
 
+## Skills
+- Video Editing
+- Photo Editing
+- Coding
+  - HTML
+  - CSS
+  - Javascript
+  - Python
+- Edthical Hacking
+  - Social Engineering
+- Gaming
+- General Computer Skills
+
 ## Projects
 
 - `Digital Ninjas` (digitalninjasplus.github.io)
@@ -22,7 +35,7 @@
   - Hypixel Bedwars Channel (500)
  
 ## Games I Play
-(The `()` is how good I am at them...)
+(The `(this thing)` is how good I am at them...)
 - Minecraft (Pro)
 - BTD6 (Level ~150)
 - Gorilla Tag (Pro)
