@@ -23,6 +23,10 @@
 - Gaming
 - General Computer Skills
 
+## Jobs
+- Video Editng (one time)
+- YouTube video thumbnail (one time)
+
 ## Projects
 
 - `Digital Ninjas` (digitalninjasplus.github.io)
