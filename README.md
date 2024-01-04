@@ -24,8 +24,8 @@
 - General Computer Skills
 
 ## Jobs
-- Video Editng (one time)
-- YouTube video thumbnail (one time)
+- Video Editng (one time) DM me
+- YouTube video thumbnail (one time) DM me
 
 ## Projects
 
