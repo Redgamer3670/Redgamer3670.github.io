@@ -1,6 +1,7 @@
 # Redgamer367
 
-### tab Interests
+### [Tab A](#tab/tab-a)
+Interests
 
 - Gaming
 - Web Dev
@@ -10,7 +11,7 @@
 - YouTube Channels
 - Minecarft Event Hosting
 
-### tab Skills
+### [Tab A](#tab/tab-a) Skills
 - Video Editing
 - Photo Editing
 - Coding
@@ -23,7 +24,7 @@
 - Gaming
 - General Computer Skills
 
-### tab Projects
+### [Tab A](#tab/tab-a) Projects
 
 - `Digital Ninjas` (digitalninjasplus.github.io)
   School Resources and Proxies
@@ -34,7 +35,7 @@
   - Gorilla Tag Channel (~k)
   - Hypixel Bedwars Channel (500)
  
-### tab Games I Play
+### [Tab A](#tab/tab-a) Games I Play
 (The `(this thing)` is how good I am at them...)
 - Minecraft (Pro)
 - BTD6 (Level ~150)
@@ -43,7 +44,7 @@
 - Human Fall Flat (Pro)
 - And a ton other PC and VR games that I don't play as much but still play.
 
-### tab Socials
+### [Tab A](#tab/tab-a) Socials
 
 - Discord: `redgamer367`
 - Github: `digitalninjasplus`, `redgamer3670`
