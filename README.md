@@ -19,7 +19,7 @@
   Some are anonymous and some I'm sharing:
   - `Hover Snake` (2.7k) (Got taken down from youtube from false termination)
   - Gorilla Tag Channel (~k)
-  - Hypixel Bedwars Channel (~k)
+  - Hypixel Bedwars Channel (500)
  
 ## Games I Play
 (The `()` is how good I am at them...)
