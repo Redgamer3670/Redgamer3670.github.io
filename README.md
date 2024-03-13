@@ -8,7 +8,6 @@
 - Graphic Design
 - Ethical Hacking
 - YouTube Channels
-- Minecarft Event Hosting
 
 ## Skills
 - Video Editing
@@ -42,6 +41,7 @@
 ## Games I Play
 (The `(this thing)` is how good I am at them...)
 - Minecraft (Pro)
+- Fortnite
 - BTD6 (Level ~150)
 - Gorilla Tag (Pro)
 - Geo Dash (Mid)
