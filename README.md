@@ -26,6 +26,7 @@
 - Video Editng (one time) DM me
 - YouTube Video Thumbnail (one time) DM me
 - TikTok Edit DM me
+- pfp in an emoji and background (one time) DM me
 
 ## Projects
 
