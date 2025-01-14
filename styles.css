@@ -36,7 +36,7 @@ body {
     display: flex;
     align-items: center;
     padding: 40px;
-    gap: 30px;
+    gap: 50px;
 }
 
 .profile .image {
