@@ -22,7 +22,7 @@ body {
 
 .navbar .links {
     display: flex;
-    gap: 30px;
+    gap: 31px;
 }
 
 .navbar .links a {
