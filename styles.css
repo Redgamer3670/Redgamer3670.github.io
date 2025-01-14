@@ -1,93 +1,110 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 body {
-    background-color: rgb(25, 25, 28);
-    font-family: "Poppins", sans-serif;
     margin: 0;
-    padding: 0;
+    background-color: #333333;
+    color: white;
+    font-family: 'Poppins';
 }
 
-nav {
-    background-color: #333;
-    padding: 15px 30px;
-    border-radius: 10px;
+/* Navigation Bar */
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: .5%;
+    padding: 10px 40px;
+    background-color: #2c2c2c;
 }
 
-.navbar-brand {
-    color: white;
-    font-size: 30px;
+.navbar .title {
+    font-size: 24px;
     font-weight: bold;
-    text-decoration: none;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.navbar .links {
     display: flex;
+    gap: 30px;
 }
 
-nav ul li {
-    margin-left: 2rem;
-}
-
-nav ul li a {
+.navbar .links a {
+    text-decoration: none;
     color: white;
-    text-decoration: none;
-    padding: 0.7rem 1.2rem;
-    font-size: 16px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-size: 18px;
 }
 
-nav ul li a:hover {
-    background-color: #575757;
-    transform: translateY(-3px);
-}
-
-.intro {
+/* Profile Section */
+.profile {
     display: flex;
-    align-items: stretch; /* Ensure equal height for both elements */
-    justify-content: flex-start;
-    margin: 20px;
-    gap: 20px; /* Creates a 20px gap between the elements */
+    align-items: center;
+    padding: 40px;
+    gap: 30px;
 }
 
-.textarea {
-    background-color: #ec4949;
+.profile .image {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.profile .image img {
+    width: 150px;
+    height: 150px;
+}
+
+.profile .text {
+    background-color: #e73c3c;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 60%;
+}
+
+.profile .text h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.profile .text p {
+    margin: 10px 0 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Jobs Section */
+.jobs-header {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 40px 0;
+}
+
+.jobs {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.job-card {
+    background-color: #b0b0b0;
     border-radius: 10px;
     padding: 20px;
-    width: 60%; /* Adjust width as needed */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
 
-.pfp {
-    border-radius: 40px;
-    width: 30%; /* Adjust width to match text section on bigger devices */
-    height: auto;
-    object-fit: cover;
+.job-card h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-/* Responsive design for small screens */
-@media (max-width: 768px) {
-    .intro {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .textarea {
-        width: 80%;
-        margin-bottom: 20px;
-        padding: 15px;
-    }
-
-    .pfp {
-        width: 50%; /* Adjust size for mobile */
-    }
+.job-card p {
+    margin: 5px 0;
+    font-size: 16px;
 }
