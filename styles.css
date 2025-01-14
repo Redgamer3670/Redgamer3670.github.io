@@ -1,115 +1,93 @@
-/* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
-    font-family: 'Arial', sans-serif;
+    background-color: rgb(25, 25, 28);
+    font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #1a1a2e, #16213e);
-    color: #ffffff;
 }
 
-/* Header Styles */
-.header {
-    background: rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-}
-
-.navbar {
+nav {
+    background-color: #333;
+    padding: 15px 30px;
+    border-radius: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: .5%;
 }
 
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 15px;
+.navbar-brand {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
     margin: 0;
+    padding: 0;
+    display: flex;
 }
 
-.nav-links li a {
+nav ul li {
+    margin-left: 2rem;
+}
+
+nav ul li a {
+    color: white;
     text-decoration: none;
-    color: #ffffff;
-    transition: color 0.3s ease;
-}
-
-.nav-links li a:hover {
-    color: #00d4ff;
-}
-
-.logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #00d4ff;
-}
-
-/* Hero Section */
-.hero {
-    text-align: center;
-    padding: 100px 20px;
-    background: linear-gradient(135deg, #00d4ff, #1a1a2e);
-}
-
-.hero .highlight {
-    color: #16213e;
-    background: #00d4ff;
-    padding: 5px 10px;
+    padding: 0.7rem 1.2rem;
+    font-size: 16px;
     border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.hero .cta {
-    margin-top: 20px;
-    display: inline-block;
-    padding: 10px 20px;
-    color: #16213e;
-    background: #00d4ff;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: background 0.3s ease;
+nav ul li a:hover {
+    background-color: #575757;
+    transform: translateY(-3px);
 }
 
-.hero .cta:hover {
-    background: #1a1a2e;
-    color: #00d4ff;
+.intro {
+    display: flex;
+    align-items: stretch; /* Ensure equal height for both elements */
+    justify-content: flex-start;
+    margin: 20px;
+    gap: 20px; /* Creates a 20px gap between the elements */
 }
 
-/* Section Styles */
-section {
-    padding: 60px 20px;
-    text-align: center;
-}
-
-.about, .contact {
-    background: #1a1a2e;
-}
-
-.projects {
-    background: #16213e;
-}
-
-.project-list {
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    padding: 20px;
-}
-
-.project-item {
-    background: rgba(255, 255, 255, 0.1);
-    padding: 20px;
+.textarea {
+    background-color: #ec4949;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 60%; /* Adjust width as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-/* Footer */
-.footer {
-    background: rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    text-align: center;
-    font-size: 0.9rem;
-    color: #aaaaaa;
+.pfp {
+    border-radius: 40px;
+    width: 30%; /* Adjust width to match text section on bigger devices */
+    height: auto;
+    object-fit: cover;
+}
+
+/* Responsive design for small screens */
+@media (max-width: 768px) {
+    .intro {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textarea {
+        width: 80%;
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+
+    .pfp {
+        width: 50%; /* Adjust size for mobile */
+    }
 }
